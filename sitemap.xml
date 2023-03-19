@@ -128,6 +128,15 @@
   </url>
   
   <url>
+    <loc>https://blog.091688.xyz/box/gallery/index.html</loc>
+    
+    <lastmod>2023-03-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.091688.xyz/tags/index.html</loc>
     
     <lastmod>2023-03-06</lastmod>
@@ -146,25 +155,7 @@
   </url>
   
   <url>
-    <loc>https://blog.091688.xyz/box/gallery/index.html</loc>
-    
-    <lastmod>2023-03-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.091688.xyz/box/nav/index.html</loc>
-    
-    <lastmod>2023-03-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.091688.xyz/life/movies/index.html</loc>
     
     <lastmod>2023-03-06</lastmod>
     
@@ -191,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://blog.091688.xyz/personal/love/index.html</loc>
+    <loc>https://blog.091688.xyz/life/movies/index.html</loc>
     
     <lastmod>2023-03-06</lastmod>
     
@@ -201,6 +192,15 @@
   
   <url>
     <loc>https://blog.091688.xyz/personal/bb/index.html</loc>
+    
+    <lastmod>2023-03-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.091688.xyz/personal/love/index.html</loc>
     
     <lastmod>2023-03-06</lastmod>
     
@@ -252,6 +252,20 @@
   </url>
   
   <url>
+    <loc>https://blog.091688.xyz/tags/Hexo/</loc>
+    <lastmod>2023-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.091688.xyz/tags/GitHub/</loc>
+    <lastmod>2023-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.091688.xyz/tags/Python/</loc>
     <lastmod>2023-03-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -273,27 +287,6 @@
   </url>
   
   <url>
-    <loc>https://blog.091688.xyz/tags/Hexo/</loc>
-    <lastmod>2023-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.091688.xyz/tags/GitHub/</loc>
-    <lastmod>2023-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.091688.xyz/tags/%E5%B0%8F%E8%AF%B4/</loc>
-    <lastmod>2023-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.091688.xyz/tags/%E5%8E%9F%E7%A5%9E/</loc>
     <lastmod>2023-03-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -307,10 +300,24 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://blog.091688.xyz/tags/%E5%B0%8F%E8%AF%B4/</loc>
+    <lastmod>2023-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
     <loc>https://blog.091688.xyz/categories/ChatGPT/</loc>
+    <lastmod>2023-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.091688.xyz/categories/Hexo/</loc>
     <lastmod>2023-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -331,21 +338,14 @@
   </url>
   
   <url>
-    <loc>https://blog.091688.xyz/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/</loc>
-    <lastmod>2023-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.091688.xyz/categories/Hexo/</loc>
-    <lastmod>2023-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.091688.xyz/categories/Hexo/%E6%BC%94%E7%A4%BA/</loc>
+    <lastmod>2023-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.091688.xyz/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/</loc>
     <lastmod>2023-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -359,14 +359,14 @@
   </url>
   
   <url>
-    <loc>https://blog.091688.xyz/categories/%E5%B0%8F%E8%AF%B4/</loc>
+    <loc>https://blog.091688.xyz/categories/%E5%8E%9F%E7%A5%9E/</loc>
     <lastmod>2023-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.091688.xyz/categories/%E5%8E%9F%E7%A5%9E/</loc>
+    <loc>https://blog.091688.xyz/categories/%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2023-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
