@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>树莓派一些常见的指令</title>
+      <link href="/posts/28e9475e.html"/>
+      <url>/posts/28e9475e.html</url>
+      
+        <content type="html"><![CDATA[<h1>1.关机与重启</h1><h2 id="关机">关机</h2><p>sudo shutdown -h now  #或者 sudo halt</p><h2 id="重启">重启</h2><p>sudo shutdown -r now  #或者 sudo reboot</p><h1>2. 用户与密码</h1><p>树莓派默认主机名是 raspberrypi，默认用户是 pi，密码为 raspberry。</p><h2 id="修改密码">修改密码</h2><p>pi@raspberrypi:~$ sudo passwd<br>Enter new UNIX password:   #输入第一遍密码<br>Retype new UNIX password:  #输入第二遍密码<br>树莓派有一个 root 账号，但默认不启用。如果想折腾，可以启用 ROOT 账号。使用 pi 用户登录后，执行</p><p>pi@raspberrypi:~$ sudo passwd root<br>输入两遍密码即可修改 root 密码。</p><h2 id="切换用户">切换用户</h2><p>su root #切换到root用户<br>如切换用户失败，说明 root 账号已锁定，需要解锁。</p><p>pi@raspberrypi:~$ sudo passwd --unlock root<br>passwd:<br>输入密码，即可解锁 root 账号。</p><h1>3.更新系统与软件</h1><h2 id="更新软件信息数据库">更新软件信息数据库</h2><p>apt-get update</p><h2 id="进行系统升级">进行系统升级</h2><p>apt-get upgrade</p><h2 id="安装软件">安装软件</h2><p>apt-get install softname1 softname2 softname3……</p><h2 id="卸载软件">卸载软件</h2><p>apt-get remove softname1 softname2 softname3……</p><h2 id="卸载并清除配置">卸载并清除配置</h2><p>apt-get remove –purge softname1</p><h2 id="搜索软件包">搜索软件包</h2><p>apt-cache search softname1 softname2 softname3……</p><h1>4.文件和文件夹操作</h1><h2 id="文件夹导航命令">文件夹导航命令</h2><p>ls  #查看当前目录内容<br>cd work #切换到 work 工作目录<br>pwd   #查看当前路径</p><h2 id="创建文件夹">创建文件夹</h2><p>mkdir work  # 在当前目录创建一个 work 文件夹<br>删除文件目录，可使用 rm 或者 rmdir 命令。</p><h2 id="使用rmdir命令删除文件夹">使用rmdir命令删除文件夹</h2><p>rmdir work # 删除 work 文件夹<br>使用 rm 命令可删除文件和文件夹</p><p>rm -rf  work  # 删除 work 文件夹<br>rm   test.txt  # 删除 test.txt 文件<br>需要注意的是，不能直接使用 rm 来删除文件目录，rm 指令后面需要参数。</p><p>-r 就是向下递归，不管有多少级目录，一并删除 -f 就是直接强行删除，不作任何提示。</p><p>修改文件名或文件夹名，使用 mv 命令。</p><h2 id="mv-旧文件名-新文件名">mv 旧文件名  新文件名</h2><p>mv demo demo1  # 将demo文件夹修改为demo1<br>创建文件</p><p>相比创建目录的方法，创建文件的方法就会多一些。</p><p>可以使用 vi 命令，vim命令 或者是 touch 命令。这几个命令的使用方式都是指令 + 文件名。</p><p>vi one.txt<br>vim two.txt<br>touch three.txt<br>不同之处 在于 vi 或者 vim 命令时，会跳转到文本编辑长，创建的文件需要保存才会生效。而 touch 命令则会直接创建空白文件。</p><h1>5.传输文件</h1><p>可以简单用 scp 命令来实现。</p><p>scp[本地文件的路径] [服务器用户名]@[服务器地址]:[服务器上存放文件的路径]</p><p>scp /Users/mac/Desktop/test.txt <a href="mailto:root@192.168.1.1">root@192.168.1.1</a>:/root<br>从本地将文件夹传输到服务器:</p><p>scp -r[本地文件的路径] [服务器用户名]@[服务器地址]:[服务器上存放文件的路径]</p><p>scp -r /Users/mac/Desktop/test <a href="mailto:root@192.168.1.1">root@192.168.1.1</a>:/root<br>将服务器上的文件传输到本地:</p><p>scp [服务器用户名]@[服务器地址]:[服务器上存放文件的路径] [本地文件的路径]</p><p>scp <a href="mailto:root@192.168.1.1">root@192.168.1.1</a>:/root/default/test.txt /Users/mac/Desktop<br>将服务器上的文件夹传输到本地:</p><p>scp -r [服务器用户名]@[服务器地址]:[服务器上存放文件的路径] [本地文件的路径]</p><p>scp -r <a href="mailto:root@192.168.1.1">root@192.168.1.1</a>:/root/default/test /Users/mac/Desktop<br>scp 指令在 mac OS 系统中也可使用，因此可用来向树莓派上传输文件。</p><p>指令中的文件路径，必须是绝对路径。如不知道文件或文件夹的绝对路径，可使用 pwd 命令查看。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 树莓派 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 树莓派 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo博客哔哩哔哩视频适应配置</title>
+      <link href="/posts/fc3c7629.html"/>
+      <url>/posts/fc3c7629.html</url>
+      
+        <content type="html"><![CDATA[<p>在<code>[BlogRoot]\source\css\custom.css</code>自定义样式的文件中引入如下代码（这是我的，你可以自行微调）：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*哔哩哔哩视频适配*/</span></span><br><span class="line"><span class="selector-class">.aspect-ratio</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">90%</span>;</span><br><span class="line">  <span class="attribute">height</span>: auto;</span><br><span class="line">  <span class="attribute">padding-bottom</span>: <span class="number">75%</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">3%</span> auto;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.aspect-ratio</span> <span class="selector-tag">iframe</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">86%</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>直接复制插入你的 <code>md</code> 文章就行，修改里面的 <code>aid</code> 为你视频的 <code>AV</code>号：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">align</span>=<span class="string">center</span> <span class="attr">class</span>=<span class="string">&quot;aspect-ratio&quot;</span>&gt;</span></span></span><br><span class="line"><span class="code">    &lt;iframe src=&quot;https://player.bilibili.com/player.html?aid=474023258&amp;&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=0&quot; </span></span><br><span class="line"><span class="code">    scrolling=&quot;no&quot; </span></span><br><span class="line"><span class="code">    border=&quot;0&quot; </span></span><br><span class="line"><span class="code">    frameborder=&quot;no&quot; </span></span><br><span class="line"><span class="code">    framespacing=&quot;0&quot; </span></span><br><span class="line"><span class="code">    high_quality=1</span></span><br><span class="line"><span class="code">    danmaku=1 </span></span><br><span class="line"><span class="code">    allowfullscreen=&quot;true&quot;&gt; </span></span><br><span class="line"><span class="code">    &lt;/iframe&gt;</span></span><br><span class="line"><span class="code">&lt;/div&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 哔哩哔哩 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 哔哩哔哩 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo最简单搭建教程！干货分享！</title>
       <link href="/posts/b8138abc.html"/>
       <url>/posts/b8138abc.html</url>
