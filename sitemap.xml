@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.091688.xyz/posts/d5ef4390.html</loc>
+    
+    <lastmod>2023-03-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.091688.xyz/posts/6c901a7d.html</loc>
+    
+    <lastmod>2023-03-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.091688.xyz/posts/518c4eab.html</loc>
+    
+    <lastmod>2023-03-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.091688.xyz/posts/e93029ce.html</loc>
+    
+    <lastmod>2023-03-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.091688.xyz/posts/4339e145.html</loc>
+    
+    <lastmod>2023-03-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.091688.xyz/posts/6a653911.html</loc>
     
     <lastmod>2023-03-19</lastmod>
@@ -119,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://blog.091688.xyz/life/games/index.html</loc>
+    <loc>https://blog.091688.xyz/life/movies/index.html</loc>
     
     <lastmod>2023-03-06</lastmod>
     
@@ -128,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://blog.091688.xyz/life/movies/index.html</loc>
+    <loc>https://blog.091688.xyz/life/games/index.html</loc>
     
     <lastmod>2023-03-06</lastmod>
     
@@ -200,13 +245,6 @@
 
   
   <url>
-    <loc>https://blog.091688.xyz/tags/ChatGPT/</loc>
-    <lastmod>2023-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.091688.xyz/tags/Hexo/</loc>
     <lastmod>2023-03-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -221,6 +259,20 @@
   </url>
   
   <url>
+    <loc>https://blog.091688.xyz/tags/ChatGPT/</loc>
+    <lastmod>2023-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.091688.xyz/tags/Python/</loc>
+    <lastmod>2023-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.091688.xyz/tags/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9/</loc>
     <lastmod>2023-03-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -229,6 +281,13 @@
   
   <url>
     <loc>https://blog.091688.xyz/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</loc>
+    <lastmod>2023-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.091688.xyz/tags/%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2023-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -251,13 +310,6 @@
 
   
   <url>
-    <loc>https://blog.091688.xyz/categories/ChatGPT/</loc>
-    <lastmod>2023-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.091688.xyz/categories/Hexo/</loc>
     <lastmod>2023-03-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -265,7 +317,14 @@
   </url>
   
   <url>
-    <loc>https://blog.091688.xyz/categories/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9/</loc>
+    <loc>https://blog.091688.xyz/categories/ChatGPT/</loc>
+    <lastmod>2023-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.091688.xyz/categories/Python/</loc>
     <lastmod>2023-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -279,7 +338,7 @@
   </url>
   
   <url>
-    <loc>https://blog.091688.xyz/categories/Hexo/%E6%BC%94%E7%A4%BA/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://blog.091688.xyz/categories/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9/</loc>
     <lastmod>2023-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -287,6 +346,20 @@
   
   <url>
     <loc>https://blog.091688.xyz/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/</loc>
+    <lastmod>2023-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.091688.xyz/categories/Hexo/%E6%BC%94%E7%A4%BA/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2023-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.091688.xyz/categories/%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2023-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

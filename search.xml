@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Python主流web框架</title>
+      <link href="/posts/6c901a7d.html"/>
+      <url>/posts/6c901a7d.html</url>
+      
+        <content type="html"><![CDATA[<p>今天来介绍一下知识点，明天我来更新当下主流4个web框架。</p><p>目前Python的网络编程框架已经多达几十个，逐个学习它们显然不现实。但这些框架在系统架构和运行环境中有很多共通之处，本文带领读者学习基于Python网络框架开发的常用知识,及目前的4种主流Python网络框架：Django、Tornado、Flask、Twisted。</p><p>网络框架及MVC架构<br>所谓网络框架是指这样的一组Python包，它能够使开发者专注于网站应用业务逻辑的开发，而无须处理网络应用底层的协议、线程、进程等方面。这样能大大提高开发者的工作效率，同时提高网络应用程序的质量。<br>在目前Python语言的几十个开发框架中，几乎所有的全栈网络框架都强制或引导开发者使用MVC架构开发Web应用。所谓全栈网络框架，是指除了封装网络和线程操作，还提供HTTP栈、数据库读写管理、HTML模板引擎等一系列功能的网络框架。本文重点讲解的Django、Tornado和Flask是全栈网络框架的典型标杆；而Twisted更专注于网络底层的高性能封装而不提供HTML模板引擎等界面功能，所以不能称之为全栈框架。<br>MVC（Model-View-Controller）模式最早由Trygve Reenskaug在1978年提出，在20世纪80年代是程序语言Smalltalk的一种内部架构。后来MVC被其他语言所借鉴，成为了软件工程中的一种软件架构模式。MVC把Web应用系统分为3个基本部分。</p><p>模型（Model）：用于封装与应用程序的业务逻辑相关的数据及对数据的处理方法，是Web应用程序中用于处理应用程序的数据逻辑的部分，Model只提供功能性的接口，通过这些接口可以获取Model的所有功能。Model不依赖于View和Controller，它们可以在任何时候调用Model访问数据。有些Model还提供了事件通知机制，为在其上注册过的View或Controller提供实时的数据更新。<br>视图（View）：负责数据的显示和呈现，View是对用户的直接输出。MVC中的一个Model通常为多个View提供服务。为了获取Model的实时更新数据，View应该尽早地注册到Model中。</p><p>控制器（Controller）：负责从用户端收集用户的输入，可以看成提供View的反向功能。当用户的输入导致View发生变化时，这种变化必须是通过Mod</p><p><img src="https://pic.imgdb.cn/item/6416c89fa682492fccad0f01.png" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>ChatGPT简单注册方法！一分钟注册</title>
       <link href="/posts/efd25192.html"/>
       <url>/posts/efd25192.html</url>
@@ -71,6 +96,106 @@
         <tags>
             
             <tag> 哔哩哔哩 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python入门知识（3）</title>
+      <link href="/posts/e93029ce.html"/>
+      <url>/posts/e93029ce.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="九，数据类型">九，数据类型</h2><p>整数：可以为任意大小、包含负数</p><p>浮点数：就是小数</p><p>字符串：以单引号 ‘、双引号&quot;、三引号 ‘’’ 或 “”&quot;括起来的文本</p><p>布尔：只有 True、False 两种值</p><p>空值：用 None 表示</p><p>变量：是可变的</p><p>常量：不可变</p><h2 id="十，运算符">十，运算符</h2><p>10.1</p><ul><li>相加a + b</li></ul><ul><li>相减a - b</li></ul><ul><li>相乘a * b<br>/相除a / b<br>%取模a % b<br>**幂a**b 表示 a 的 b 次幂<br>//取整除9 // 4 结果为 2<br>==是否相等a == b<br>&gt;是否大于a &gt; b<br>&gt;=是否大于等于a &gt;= b<br>&lt;=是否小于等于a &lt;= b<br>=简单的赋值运算符a = b + c<br>+=加法赋值运算符a += b 等效于 a = a + b<br>-=减法赋值运算符a -= b 等效于 a = a - b<br>*=乘法赋值运算符a *= b 等效于 a = a * b<br>/=除法赋值运算符a /= b 等效于 a = a / b<br>%=取模赋值运算符a %= b 等效于 a = a % b<br>*=**幂赋值运算符a **= b 等效于 a = a ** b<br>//=取整除赋值运算符a //= b 等效于 a = a // b<br>&amp;与a &amp; b<br>|或a | b<br>^异或a ^ b<br>~取反~a<br>&lt;&lt;左移动a &lt;&lt; 3<br>&gt;&gt;右移动a &gt;&gt; 3<br>and布尔类型与a and b<br>or布尔类型或a or b<br>not布尔类型非not a<br>is判断两个标识符是否引用同一个对象a is b<br>is not判断两个标识符是否引用不同对象a is not b</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我愿称之为史上最强小说阅读神器！</title>
+      <link href="/posts/d5ef4390.html"/>
+      <url>/posts/d5ef4390.html</url>
+      
+        <content type="html"><![CDATA[<p>最强阅读神器内置1200种书源全网所有资源免费看，无广告非常强大导入书源简单一键导入书源</p><p>【应用名称】阅读</p><p>【应用版本】3.23.030</p><p>【资源大小】12.7M</p><p>朗读速度添加数值显示<br>章节进度添加xx/yyy格式<br>远程书籍单独配置webDav,多个webDav看情况再添加</p><p>阅读app，免费开源阅读软件，网络文学搜索的工具，可以订阅自定义书源阅读网络内容的工具，为网络文学爱好者提供个性化功能，在线阅读、本地阅读、书源订阅、书源净化、智能搜索、阅读设置等多项功能</p><p>免费开源，纯净无广告<br>– 列表书架，网格书架自由切换<br>– 书源规则支持搜索及发现，所有找书看书功能全部自定义，找书更方便<br>– 自定义书源，自己设置规则，抓取网页数据，规则简单易懂，内有规则说明<br>– 支持替换净化第三方书源，去除广告替换内容很方便<br>– 支持本地TXT、EPUB阅读，手动浏览，智能扫描<br>– 支持高度自定义阅读界面，切换字体、颜色、背景、行距、段距、加粗、简繁转换等<br>– 支持多种翻页模式，覆盖、仿真、滑动、滚动等</p><p>下载链接：<a href="https://legado.aoaostar.com/">https://legado.aoaostar.com/</a></p><p>优质书源分享：</p><p><a href="https://cdn.jsdelivr.net/gh/yeyulingfeng01/yuedu.github.io/yeudu3.0-202005.json">https://cdn.jsdelivr.net/gh/yeyulingfeng01/yuedu.github.io/yeudu3.0-202005.json</a></p><p><a href="https://cdn.jsdelivr.net/gh/yeyulingfeng01/yuedu.github.io@1.1/202003.txt">https://cdn.jsdelivr.net/gh/yeyulingfeng01/yuedu.github.io@1.1/202003.txt</a></p><p><a href="https://moonbegonia.github.io/Source/yuedu/audio.json">https://moonbegonia.github.io/Source/yuedu/audio.json</a></p><p><a href="https://yuedu.xiu2.xyz/shuyuan">https://yuedu.xiu2.xyz/shuyuan</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 小说 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 小说 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python入门知识（2）</title>
+      <link href="/posts/518c4eab.html"/>
+      <url>/posts/518c4eab.html</url>
+      
+        <content type="html"><![CDATA[<p>第二期来了</p><h2 id="四，编码">四，编码</h2><p>Python2 中默认编码为 ASCII，假如内容为汉字，不指定编码便不能正确的输出及读取，比如我们想要指定编码为 UTF-8，Python 中通过在开头加入 # -<em>- coding: UTF-8 -</em>- 进行指定。</p><p>Python3 中默认编码为 UTF-8，因此在使用 Python3 时，我们通常不需指定编码。</p><h2 id="五，输出输入">五，输出输入</h2><p>Python 输出使用 print()，内容加在括号中即可<br>Python 提供了一个 input()，可以让用户输入字符串，并存放到一个变量里。</p><h2 id="六，缩进">六，缩进</h2><p>Python 不使用 {} 来控制类、函数、逻辑判断等，而是使用缩进，缩进的空格可变。</p><h2 id="七，多行">七，多行</h2><p>Python 中一般以新行作为语句的结束标识，可以使用 \ 将一行语句分为多行显示。<br>如果包含在 []、{}、() 括号中，则不需要使用 \。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python入门知识（1）</title>
+      <link href="/posts/4339e145.html"/>
+      <url>/posts/4339e145.html</url>
+      
+        <content type="html"><![CDATA[<p>这些东西都是从一些Python书上总结下来的</p><h2 id="一，标识符">一，标识符</h2><p>1标识符是编程时使用的名字，用于给变量、函数、语句块等命名，Python 中标识符由字母、数字、下划线组成，不能以数字开头，区分大小写。<br>以下划线开头的标识符有特殊含义，单下划线开头的标识符，如：_xxx ，表示不能直接访问的类属性，需通过类提供的接口进行访问，不能用 from xxx import * 导入；双下划线开头的标识符，如：__xx，表示私有成员；双下划线开头和结尾的标识符，如：<strong>xx</strong>，表示 Python 中内置标识，如：<strong>init</strong>() 表示类的构造函数</p><h2 id="二，关键词">二，关键词</h2><p>见一图，表中是Python的保留字，我们在自定义标识符时不能使用关键字</p><h2 id="三，引号">三，引号</h2><p>Python 可以使用引号（‘）、双引号（&quot;）、三引号（’‘’ 或 “”&quot;）来表示字符串，引号的开始与结束须类型相同，三引号可以由多行组成</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
             
         </tags>
       
